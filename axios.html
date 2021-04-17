@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Axios Http Library</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+</head>
+
+<body>
+    <div class="hero is-dark is-bold">
+        <div class="container">
+            <div class="block"></div>
+            <div class="block has-text-centered">
+                <h1 class="title is-spaced">Axios - Promise based HTTP client for the browser and node.js </h1>
+            </div>
+
+            <div class="block has-text-centered">
+                <h3 class="subtitle">Popular Http Library</h3>
+            </div>
+
+            <div class="block">
+                <div class="buttons">
+                    <button id="get" class="button is-primary is-outlined">GET</button>
+                    <button id="post" class="button is-warning is-outlined">POST</button>
+                    <button id="put-patch" class="button is-light is-outlined">PUT/PATCH</button>
+                    <button id="delete" class="button is-danger is-outlined">DELETE</button>
+                    <button id="request" class="button is-white is-outlined request">REQUEST AT THE SAME TIME</button>
+                    <button id="headers" class="button is-info is-outlined headers">CUSTOM HEADERS</button>
+                    <button id="errors" class="button is-danger is-outlined errors">ERRORS</button>
+                </div>
+            </div>
+            <div class="block"></div>
+        </div>
+    </div>
+
+    <div class="block"></div>
+
+    <div class="container result">
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="axios.js"></script>
+</body>
+
+</html>
